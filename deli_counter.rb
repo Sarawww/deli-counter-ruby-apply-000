@@ -1,6 +1,6 @@
 # Write your code here.
 
-def take_a_number(array, name)
+def take_a_number(array,name)
   array << name
  puts "Welcome, #{name}. You are number #{array.length} in line."
 end
@@ -25,3 +25,20 @@ def line(array)
     puts "The line is currently:#{current_line}"
   end
 end
+
+
+deli_line = []
+
+ticket_number = 1 
+def ticket_number
+    ticket_number += 1
+    
+    
+puts "you're No. #{ticket_number} in line"
+
+
+
+
+
+
+
